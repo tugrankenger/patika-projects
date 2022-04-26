@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html, body{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    background-color: #eeeeee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-box h4{
+    font-size: clamp(12px, 2vw, 14px);
+    font-weight: 400;
+}
+
+input[type = "text"]{
+    width: 400px;
+}
+
+.search-btn-box{
+    display: flex;
+    gap: 10px;
+}
+
+.search-btn-box button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 2px;
+}
+
+.footer a{
+    text-decoration: underline;
+}
+
+.specialSearch, .help, .subscribe{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 76px;
+    overflow-y: auto;
+}
+
+.specialSearch{
+    background-color: #7EE5DA;
+}
+
+.help{
+    background-color: #70CCC2;
+}
+
+.subscribe{
+    background-color: #62B3AA;
+}
+
+.subscribe input{
+    width: 200px;
+}
+
+.footerCopyright{
+    padding-top: clamp(10px, 2vw, 20px);
+}
