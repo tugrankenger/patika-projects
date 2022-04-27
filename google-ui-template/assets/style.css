@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.gb_Ve{
+    width: 24px;
+    height: 24px;
+    fill: #626262;
+    transition: all .5s ease-in-out;
+    webkit-transition: all .5s ease-in-out;
+}
